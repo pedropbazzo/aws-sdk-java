@@ -172,7 +172,7 @@ public class AbstractAmazonAutoScaling implements AmazonAutoScaling {
     public DescribeAutoScalingNotificationTypesResult describeAutoScalingNotificationTypes(DescribeAutoScalingNotificationTypesRequest request) {
         throw new java.lang.UnsupportedOperationException();
     }
-
+ 
     @Override
     public DescribeAutoScalingNotificationTypesResult describeAutoScalingNotificationTypes() {
         return describeAutoScalingNotificationTypes(new DescribeAutoScalingNotificationTypesRequest());
